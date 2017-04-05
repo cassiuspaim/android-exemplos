@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         //Retorna a barra que aparece na parte de cima
         //da aplicação
         //ActionBar actionBar = getActionBar();
