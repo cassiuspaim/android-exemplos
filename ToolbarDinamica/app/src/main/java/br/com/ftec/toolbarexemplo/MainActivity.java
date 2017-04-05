@@ -3,6 +3,7 @@ package br.com.ftec.toolbarexemplo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -14,14 +15,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         //Retorna a barra que aparece na parte de cima
         //da aplicação
-        //ActionBar actionBar = getActionBar();
-        ActionBar actionbar = getSupportActionBar();
-        actionbar.setTitle("Hello ActionBarCompat");
 
+        //Exemplo 1
+        //ActionBar actionBar = getActionBar();
+
+        //Exemplo 2
+        //ActionBar actionbar = getSupportActionBar();
+        //actionbar.setTitle("Hello ActionBarCompat");
+
+        //Exemplo 3
+        // Aqui eh a magica (A toolbar sera a action bar).
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Toolbar Title");
+        getSupportActionBar().setSubtitle("Toolbar Subtitle");
     }
 
     /*

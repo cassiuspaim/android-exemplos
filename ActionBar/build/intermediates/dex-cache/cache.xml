@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\CASSIUS\AndroidStudioProjects\ActionBarExemplo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ActionBar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bafc48ea77aba5c732e24721776abb87fb78f071">
-        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\ActionBarExemplo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7c608291c9f0c7a8dc84616d33129834f1726a5d\classes.dex" />
+        sha1="db967aced45324b21339173a72a5f3de766111f2">
+        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ActionBar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_336b5e0a882cdbf74ba0152f67dd52e1b0394a61\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\CASSIUS\AndroidStudioProjects\ActionBarExemplo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ActionBar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\ActionBarExemplo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b22542954a3a9ae20d44c543bf28392b823d21fe\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ActionBar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b57ba911b2e631a05b9a0fe8f25c18a43cba215e\classes.dex" />
     </item>
 
 </items>

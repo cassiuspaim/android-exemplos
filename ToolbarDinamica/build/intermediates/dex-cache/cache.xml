@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_774db87625e27cc8f3dc4831526d1c57d54401e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3f05af8c3f09c5728c6e7aed2ad385793fd2ad8">
+        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_815b4095ad0afbbedc8bba51beb1bfb9d7c04fb4\classes.dex" />
+    </item>
+
+</items>
