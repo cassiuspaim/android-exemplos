@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Table Layout Shrink Column</string>
+    <string name="coluna_1">Coluna 1</string>
+    <string name="coluna_2">Coluna 2</string>
+    <string name="coluna_3">Coluna 3</string>
+    <string name="texto_grande">"Texto Grande que vai sair da tela mas o shrinkColumns=2 foi
+\n\t\t\tutilizado para quebrar. "</string>
+
+</resources>
