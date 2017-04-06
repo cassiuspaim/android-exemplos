@@ -1,6 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!--O tema indica "Theme.AppCompat.Light.NoActionBar" que a app não exibirá a Toolbar -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>

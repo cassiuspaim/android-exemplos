@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //actionbar.setTitle("Hello ActionBarCompat");
 
         //Exemplo 3
-        // Aqui eh a magica (A toolbar sera a action bar).
+        // Configura a Toolbar para ser exibida.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Toolbar Title");

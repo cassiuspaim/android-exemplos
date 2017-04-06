@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         //ActionBar actionBar = getActionBar();
         ActionBar actionbar = getSupportActionBar();
 
-        actionbar.setTitle("ActionBarEx1");
+        actionbar.setTitle("Exemplo 1");
         //Habilita a seta para voltar
         actionbar.setDisplayHomeAsUpEnabled(true);
     }
