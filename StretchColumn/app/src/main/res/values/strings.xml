@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StretchColumn</string>
+    <string name="lista_de_produtos">Lista de Produtos</string>
+    <string name="produto_a">Produto A</string>
+    <string name="reais_100">R$100,00</string>
+    <string name="produto_b">Produto B</string>
+    <string name="reais_200">R$200,00</string>
+    <string name="produto_c">Produto C</string>
+    <string name="reais_300">R$300,00</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="comprar">" Comprar "</string>
+</resources>
