@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="16dp">
 
+    <!--  -->
     <TextView
         android:id="@+id/labelUsuario"
-        android:layout_width="55dip"
+        android:layout_width="55dp"
         android:layout_height="wrap_content"
         android:text="@string/usuario" />
+
     <!-- Ao lado do label Usuário "layout_toRight" -->
     <EditText
         android:id="@+id/campoUsuario"
@@ -20,11 +23,12 @@
     <!-- Senha: abaixo do campoUsuario "layout_below", alinhado a esquerda -->
     <TextView
         android:id="@+id/labelSenha"
-        android:layout_width="55dip"
+        android:layout_width="55dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/campoUsuario"
         android:gravity="left"
         android:text="@string/senha" />
+
     <!-- Ao lado do label Senha "layout_toRight" -->
     <EditText
         android:id="@+id/campoSenha"
@@ -34,6 +38,7 @@
         android:layout_toRightOf="@id/labelSenha"
         android:background="@android:drawable/editbox_background"
         android:inputType="textPassword" />
+
     <!-- Abaixo do campoSenha "layout_below", alinhado a direita -->
     <Button
         android:id="@+id/btLogin"
