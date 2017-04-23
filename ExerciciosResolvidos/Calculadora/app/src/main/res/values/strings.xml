@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">calculadora</string>
+    <string name="PRIMEIRO_NUMERO">
+        Digito o primeiro número
+    </string>
+    <string name="MULTIPLICAR">Multiplicar</string>
+</resources>

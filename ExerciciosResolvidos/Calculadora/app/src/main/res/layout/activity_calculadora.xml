@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Rótulo de campo do primeiro número a ser somado  -->
+    <TextView android:text="@string/PRIMEIRO_NUMERO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <!-- Campo do primeiro número a ser somado  -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ednumero1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o segundo número"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ednumero1"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ednumero2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Somar"
+        android:id="@+id/btsomar"
+        android:layout_below="@+id/ednumero2"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtrair"
+        android:id="@+id/btsubstrair"
+        android:layout_below="@+id/btsomar"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MULTIPLICAR"
+        android:id="@+id/btmultiplicar"
+        android:layout_below="@+id/btsubstrair"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir"
+        android:id="@+id/btdividir"
+        android:layout_below="@+id/btmultiplicar"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
