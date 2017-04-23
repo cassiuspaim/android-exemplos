@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application' // Aplica o plugin 'android' no script de compilação do Gradle
+
+android {                      // Este elemento configura os parâmetros de compilação do módulo
+    compileSdkVersion 25       // API Level usada para compilar o código (deve ser ser sempre a última)
+    buildToolsVersion "25.0.2" // Versão do Android SDK Build-tools baixada pelo SDK Manager
+    defaultConfig {            // Este elemento configura os ítens do AndroidManifest.xml
+        applicationId "br.com.ftec.logcatexemplo"  // Pacote do projeto e identificador único da aplicação
+        minSdkVersion 15     // API Level mínima que o aplicativo suporta
+        targetSdkVersion 25  // API máxima utilizada para otimizar o build de compilação
+        versionCode 1        // Código para identificar o aplicativo no Google Play
+        versionName "1.0"    // Versão do código com formato amigável para o usuário
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {                // Este elemento configura os tipos de build (debug e release)
+        release {               // Configura o build do tipo release
+            minifyEnabled false // Configura para utilizar o proguard e obfuscar o código
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro' //Reduz código e
+                                                                                               // recursos não utilizados
+        }
+    }
+}
+
+dependencies {  //Declara as dependências (bibliotecas) para compilar o projeto
+    //Adiciona todos os arquivos .jar da pasta libs na compilação
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Menu de Contexto em ListView</string>
+    <string name="LIGAR">Ligar</string>
+    <string name="SMS">Enviar SMS</string>
+</resources>

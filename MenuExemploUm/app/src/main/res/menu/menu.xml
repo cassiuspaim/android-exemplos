@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_bookmark"
+        android:title="@string/bookmark"
+        android:icon="@drawable/icon_bookmark"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_save"
+        android:title="@string/save"
+        android:icon="@drawable/icon_save"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_search"
+        android:title="@string/search"
+        android:icon="@drawable/icon_search"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_share"
+        android:title="@string/share"
+        android:icon="@drawable/icon_share"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/icon_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_preferences"
+        android:title="@string/preferences"
+        android:icon="@drawable/icon_preferences"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExemploSpinner</string>
+    <string name="selecione_opcao">Selecione uma opção</string>
+    <string name="texto_combo">Selecione uma opção</string>
+    <string name="selecione_uma_opcao">Selecione uma opção</string>
+    <string name="selecione_o_planeta">Selecione o planeta</string>
+    <string name="contentDescription">Descrição da imagem</string>
+    <string name="OK">OK</string>
+</resources>

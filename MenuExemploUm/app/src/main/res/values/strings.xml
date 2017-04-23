@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exemplo 1 de menu na Toolbar</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="save">Salvar</string>
+    <string name="search">Procurar</string>
+    <string name="share">Compartilhar</string>
+    <string name="delete">Excluir</string>
+    <string name="preferences">Preferencias</string>
+    <string name="clique_no_menu">Clique no menu para exibir os ítens de menu</string>
+</resources>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GalleryComponente</string>
+    <string name="exemplo_gallery">Exemplo gallery</string>
+    <string name="content_description">Descrição</string>
 </resources>
