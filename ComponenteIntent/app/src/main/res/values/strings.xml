@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ComponenteIntent</string>
+    <string name="sim_nao_mensagem">Escolha Sim ou Não</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Nâo</string>
+    <string name="acionar_intent_startactivityforresult">StartActivityForResult</string>
+    <string name="acionar_intent_startactivity">StartActivity</string>
+    <string name="titulo_view_tela_sim_nao">Opções de Resposta</string>
+    <string name="titulo_view_main">Exemplo de uso de Intent</string>
+</resources>

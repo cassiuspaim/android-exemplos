@@ -18,7 +18,10 @@ public class CustomListAdapter extends ArrayAdapter<String> {
     private final String[] items;
     private final Integer[] imagens;
 
-    public CustomListAdapter(Activity context, String[] items, Integer[] imagens) {
+    public CustomListAdapter(Activity context,
+                             String[] items,
+                             Integer[] imagens) {
+
         super(context, R.layout.mylist, items);
         // TODO Auto-generated constructor stub
 
@@ -29,7 +32,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = contexto.getLayoutInflater();
-        View rowView=inflater.inflate(R.layout.mylist, null,true);
+        View rowView = inflater.inflate(R.layout.mylist, null,true);
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
