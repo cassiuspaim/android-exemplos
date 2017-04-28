@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@drawable/timer_auto_black_48x48"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+		android:padding="5dp" />
+
+    <LinearLayout
+        android:id="@+id/llNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/icon" >
+    
+        <TextView
+            android:id="@+id/nomeExibicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Exibição"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textColor="#33CC33" />
+
+        <TextView
+            android:id="@+id/profissao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profissão"
+            android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+
+    <ImageView
+        android:id="@+id/trofeu"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/trophy_24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

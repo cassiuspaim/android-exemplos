@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <include layout="@layout/include_toolbar" />
+
+    <TextView
+        android:id="@+id/lblInformarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informar_dados"
+        android:layout_below="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:hint="@string/hintNome"
+        android:layout_below="@+id/lblInformarDados"/>
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblNome"/>
+
+    <TextView
+        android:id="@+id/lblTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefone"
+        android:hint="@string/hintTelefone"
+        android:layout_below="@+id/etNome"/>
+
+    <EditText
+        android:id="@+id/etTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_below="@+id/lblTelefone"/>
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmail"
+        android:text="@string/email"
+        android:layout_below="@+id/etTelefone"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/lblEmail"/>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:text="@string/salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"/>
+
+</RelativeLayout>
