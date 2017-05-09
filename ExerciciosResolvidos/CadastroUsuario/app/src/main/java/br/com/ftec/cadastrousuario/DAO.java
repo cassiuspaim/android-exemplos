@@ -32,14 +32,14 @@ class DAO {
         }
     }
     public static void excluirUsuario(Usuario usuario) {
-            Usuario usuarioDaLista;
-            for (int i = 0; i < usuarios.size(); i++) {
+        Usuario usuarioDaLista;
+        for (int i = 0; i < usuarios.size(); i++) {
 
-                usuarioDaLista = usuarios.get(i);
+            usuarioDaLista = usuarios.get(i);
 
-                if (usuarioDaLista.getId().equals(usuario.getId())) {
-                    usuarios.remove(usuarioDaLista);
-                }
+            if (usuarioDaLista.getId().equals(usuario.getId())) {
+                usuarios.remove(usuarioDaLista);
             }
         }
+    }
 }

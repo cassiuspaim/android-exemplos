@@ -10,7 +10,8 @@ import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 
 @SuppressWarnings("deprecation")
-public class ExemploTabHost extends TabActivity implements TabHost.OnTabChangeListener, TabHost.TabContentFactory {
+public class ExemploTabHost extends TabActivity
+        implements TabHost.OnTabChangeListener, TabHost.TabContentFactory {
 
     private static final String TAG = "ExTabHost";
 

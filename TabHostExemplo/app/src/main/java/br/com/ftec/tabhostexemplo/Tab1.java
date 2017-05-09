@@ -22,6 +22,7 @@ public class Tab1 extends Activity {
         layout.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
         layout.setPadding(10, 10, 10, 10); //pixels
         layout.setBackgroundColor(Color.GRAY);
+
         TextView nome = new TextView(this);
         nome.setText("Texto da Tab 1A");
         nome.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CadUsuario</string>
+    <string name="tituloToolBar">Título Toolbar</string>
+    <string name="subTituloToolBar">Subtítulo Toolbar</string>
+    <string name="save">Novo Usuário</string>
+    <string name="listar">Listar Usuários</string>
+    <string name="Nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="nome_usuario">Usuário</string>
+    <string name="salvar">Salvar</string>
+    <string name="tela_lista_usuarios">Lista de Usuários</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_excluir">Excluir</string>
+</resources>

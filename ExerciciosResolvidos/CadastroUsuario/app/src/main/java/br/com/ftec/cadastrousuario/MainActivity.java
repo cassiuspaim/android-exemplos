@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater(); //Retorna o inflater de menu
         menuInflater.inflate(R.menu.menu, menu);       //Atribui ao menu(res/menu/menu.xml) a view
-        return true;
+            return true;
     }
 
     /**

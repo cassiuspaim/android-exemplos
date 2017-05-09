@@ -17,13 +17,13 @@
         </activity>
         <activity android:name=".TelaCadastroUsuario"
             android:parentActivityName=".MainActivity">
-            <!-- Activity pai meta-data para suportar Android 4.0 e versões inferiores -->
+            <!-- Activity pai meta-data para suportar Android 4.0 e versões anteriores -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
         <activity android:name=".ListaUsuariosActivity"
             android:parentActivityName=".MainActivity">
-            <!-- Activity pai meta-data para suportar Android 4.0 e versões inferiores -->
+            <!-- Activity pai meta-data para suportar Android 4.0 e versões anteriores -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>

@@ -20,6 +20,7 @@ public class ListaUsuariosActivity extends AppCompatActivity {
     private static final int ID_MENU_EXCLUIR_USUARIO = 2;
     private ListView lista_contatos;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,7 @@ public class ListaUsuariosActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         lista_contatos = (ListView) findViewById(R.id.lista_contatos);
-
+        //atualizarLista(); // alteração somente para mostrar o ciclo de vida
         // Registra o menu de contexto
         registerForContextMenu(lista_contatos);
     }
@@ -63,6 +64,7 @@ public class ListaUsuariosActivity extends AppCompatActivity {
 
                 Intent it = new Intent(ListaUsuariosActivity.this, TelaCadastroUsuario.class);
                 it.putExtra("usuario", usuario);
+
                 startActivity(it);
 
                 return false;
@@ -82,4 +84,8 @@ public class ListaUsuariosActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+    }
 }
