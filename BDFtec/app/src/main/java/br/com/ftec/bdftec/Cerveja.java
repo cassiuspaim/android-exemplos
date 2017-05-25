@@ -11,6 +11,10 @@ class Cerveja {
     private Integer quantidade;
     private String tipo;
 
+    public Cerveja() {
+        this.id = 0L;
+    }
+
     public Long getId() {
         return id;
     }

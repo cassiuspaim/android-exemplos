@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 cerveja
                   .setTipo(etTipo.getText().toString());
 
-                CervejaDB cervejaDB = new CervejaDB();
+                CervejaDB cervejaDB = new CervejaDB(MainActivity.this);
                 cervejaDB.salvar(cerveja);
 
             }

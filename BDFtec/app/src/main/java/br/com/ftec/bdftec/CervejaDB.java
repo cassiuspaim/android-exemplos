@@ -10,8 +10,6 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.R.attr.version;
-
 /**
  * Created by CASSIUS on 18/05/2017.
  */
