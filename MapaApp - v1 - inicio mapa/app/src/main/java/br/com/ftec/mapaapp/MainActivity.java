@@ -56,11 +56,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         return false;
     }
 
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mGoogleMap = googleMap;
-        goToLocationZoom(-30.025641,-51.2210863, 15);
+        goToLocationZoom(-30.025537, -51.219427, 15);
     }
 
     private void goToLocationZoom(double latitude, double longitude, float zoom) {

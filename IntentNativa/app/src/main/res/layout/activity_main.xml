@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btAbrirURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/ABRIR_URL"/>
+
+    <Button
+        android:id="@+id/btLigar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/LIGAR"/>
+
+    <Button
+        android:id="@+id/btVisualizarContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/VISUALIZAR_CONTATO"/>
+
+    <Button
+        android:id="@+id/btVisualizarTodosContatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/VISUALIZAR_TODOS_CONTATOS"/>
+
+    <Button
+        android:id="@+id/btVisualizarNomeDoContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EXIBIR_NOME_CONTATO"/>
+
+    <Button
+        android:id="@+id/btSolicitarBuscaMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BUSCAR_NOME_RUA"/>
+
+    <Button
+        android:id="@+id/btBuscaCoordenadaEspecifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BUSCA_COORDENADA"/>
+
+    <Button
+        android:id="@+id/btRotaEntreDoisPontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EXIBIR_ROTA"
+        />
+
+    <Button
+        android:id="@+id/btAbrirAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OUVIR_AUDIO"/>
+</LinearLayout>

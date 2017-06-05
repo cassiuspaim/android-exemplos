@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MapaApp - v3 - markers.iml" filepath="$PROJECT_DIR$/MapaApp - v3 - markers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntentNativa.iml" filepath="$PROJECT_DIR$/IntentNativa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
