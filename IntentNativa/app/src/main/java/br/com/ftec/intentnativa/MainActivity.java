@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Representa o número que deve ser ligado.
-                Uri uri = Uri.parse("tel:984436311");
+                Uri uri = Uri.parse("tel:9988888");
                 //Cria a Intent com o telefone
                 Intent it = new Intent(Intent.ACTION_CALL, uri);
                 //Enviar a mensagem ao Android
