@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
                     firstBar.setVisibility(View.VISIBLE);
                     firstBar.setMax(150);
                     secondBar.setVisibility(View.VISIBLE);
+                    //secondBar.setMax(150);
                 } else if ( i< firstBar.getMax() ) {
 
                     //Set first progress bar value
