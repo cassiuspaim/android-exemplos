@@ -34,14 +34,19 @@ public class ExemploSpinnerActivity extends Activity {
         btOK = (Button) findViewById(R.id.btOK);
         combo = (Spinner) findViewById(R.id.comboPlanetas);
 
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, planetas);
-//		adaptador.setDropDownViewResource(android.R.layout.simple_spinner_item);
-        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adaptador =
+                new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, planetas);
+		adaptador.setDropDownViewResource(android.R.layout.simple_spinner_item);
+//        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         combo.setAdapter(adaptador);
         // Se selecionar algum planeta atualiza a imagem
         combo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View v, int posicao, long id) {
+            public void onItemSelected(
+                    AdapterView<?> parent,
+                    View v,
+                    int posicao,
+                    long id) {
                 // Atualiza a imagem
                 imagem.setImageResource(imagens[posicao]);
             }

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cadastro de Usuários</string>
+    <string name="save">Incluir Usuário</string>
+    <string name="listar">Listar Usuários</string>
+    <string name="informar_dados">Preencha os dados:</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="salvar">Salvar</string>
+    <string name="hintNome">Informe o nome</string>
+    <string name="hintTelefone">Informe o telefone</string>
+    <string name="hintEmail">Informe o e-mail</string>
+    <string name="editarUsuario">Editar</string>
+    <string name="excluirUsuario">Excluir</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="tela_edicao_usuario">Edição de usuário</string>
+    <string name="tela_lista_usuarios">Lista de usuários</string>
+</resources>

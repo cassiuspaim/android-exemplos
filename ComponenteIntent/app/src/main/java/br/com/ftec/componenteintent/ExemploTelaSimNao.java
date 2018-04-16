@@ -3,6 +3,7 @@ package br.com.ftec.componenteintent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -24,6 +25,7 @@ public class ExemploTelaSimNao extends AppCompatActivity {
                 //Seta o status do resultado e a Intent
                 setResult(1, it);
                 //Fim desta activity
+                Log.i( "TAG_ERRO_APP_SIMNAO", "Clicou em Sim" );
                 finish();
             }
         });

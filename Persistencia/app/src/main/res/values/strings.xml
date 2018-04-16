@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Persistencia</string>
+    <string name="salvar">Salvar</string>
+    <string name="tv_salvar">Valor a ser salvo</string>
+</resources>

@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         btStartActivityForResult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, ExemploTelaSimNao.class), ACTIVITY_SIM_NAO);
+                startActivityForResult(
+                        new Intent(MainActivity.this, ExemploTelaSimNao.class),
+                        ACTIVITY_SIM_NAO);
             }
         });
 
@@ -42,7 +44,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int codigo, int resultado, Intent it) {
         if (codigo == ACTIVITY_SIM_NAO) {
-            Bundle params = it != null ? it.getExtras() : null;
+            Bundle params =  null;
+            if (it != null) {
+                params = it.getExtras();
+            }
+
             if (params != null) {
                 String msg = params.getString("msg");
                 switch (resultado) {

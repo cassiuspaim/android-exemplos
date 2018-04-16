@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Integração</string>
+    <string name="ABRIR_URL">ABRIR_URL</string>
+    <string name="LIGAR">Ligar</string>
+    <string name="VISUALIZAR_CONTATO">Visualizar Contato</string>
+    <string name="VISUALIZAR_TODOS_CONTATOS">Visualizar Todos Contatos</string>
+    <string name="EXIBIR_NOME_CONTATO">Exibir nome do contato</string>
+    <string name="BUSCAR_NOME_RUA">Buscar rua por nome</string>
+    <string name="BUSCA_COORDENADA">Busca por coordenada específica</string>
+    <string name="EXIBIR_ROTA">Exibir rota</string>
+    <string name="OUVIR_AUDIO">Ouvir mp3</string>
+</resources>

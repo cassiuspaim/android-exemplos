@@ -3,31 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/menu_bookmark"
         android:title="@string/bookmark"
-        android:icon="@drawable/icon_bookmark"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/icon_bookmark"/>
 
     <item android:id="@+id/menu_save"
         android:title="@string/save"
-        android:icon="@drawable/icon_save"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/icon_save"/>
 
     <item android:id="@+id/menu_search"
         android:title="@string/search"
-        android:icon="@drawable/icon_search"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/icon_search"/>
 
     <item android:id="@+id/menu_share"
         android:title="@string/share"
-        android:icon="@drawable/icon_share"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/icon_share"/>
 
     <item android:id="@+id/menu_delete"
         android:title="@string/delete"
-        android:icon="@drawable/icon_delete"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/icon_delete"/>
 
     <item android:id="@+id/menu_preferences"
         android:title="@string/preferences"
-        android:icon="@drawable/icon_preferences"
-        app:showAsAction="never"/>
+        android:icon="@drawable/icon_preferences"/>
 </menu>
