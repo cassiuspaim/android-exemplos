@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="C:\repositorios\android-exemplos\ToolbarWIcons\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\repositorios\android-exemplos\ToolbarWIcons\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6af6235cedfe19b9c1404e79b967ba80b8cf7677\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\repositorios\android-exemplos\ToolbarWIcons\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bbc6f71dae4a441cd202dbe56f3b7c9d7bb6f13b">
+        <dex dex="C:\repositorios\android-exemplos\ToolbarWIcons\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5f518e2a290326588271073930ac1223135e6c0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarWIcons\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"

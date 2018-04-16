@@ -25,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.listView);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, contatos);
+        ArrayAdapter<String> adapter =
+                new ArrayAdapter<String>(this,
+                                        android.R.layout.simple_list_item_1,
+                                        contatos);
         listView.setAdapter(adapter);
 
         // Registra o menu de contexto

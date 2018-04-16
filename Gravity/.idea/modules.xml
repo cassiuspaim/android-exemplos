@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gravity.iml" filepath="$PROJECT_DIR$/Gravity.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\Gravity\Gravity.iml" filepath="C:\repositorios\android-exemplos\Gravity\Gravity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\Gravity\app\app.iml" filepath="C:\repositorios\android-exemplos\Gravity\app\app.iml" />
     </modules>
   </component>
 </project>

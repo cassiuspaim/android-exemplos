@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalculoSalario.iml" filepath="$PROJECT_DIR$/CalculoSalario.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\ExerciciosResolvidos\CalculoSalario\CalculoSalario.iml" filepath="C:\repositorios\android-exemplos\ExerciciosResolvidos\CalculoSalario\CalculoSalario.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\ExerciciosResolvidos\CalculoSalario\app\app.iml" filepath="C:\repositorios\android-exemplos\ExerciciosResolvidos\CalculoSalario\app\app.iml" />
     </modules>
   </component>
 </project>

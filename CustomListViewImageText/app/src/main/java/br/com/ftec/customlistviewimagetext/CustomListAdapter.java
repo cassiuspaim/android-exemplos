@@ -32,7 +32,9 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = contexto.getLayoutInflater();
-        View rowView = inflater.inflate(R.layout.mylist, null,true);
+        View rowView = inflater.inflate(R.layout.mylist,
+                                        null,
+                                        true);
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);

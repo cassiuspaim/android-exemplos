@@ -36,7 +36,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CustomListAdapter adapter = new CustomListAdapter(this, items, imgid);
+        CustomListAdapter adapter =
+                new CustomListAdapter(this, items, imgid);
         lista = (ListView) findViewById(R.id.list);
         lista.setAdapter(adapter);
 

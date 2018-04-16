@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RelativeLayoutExemplo.iml" filepath="$PROJECT_DIR$/RelativeLayoutExemplo.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\RelativeLayoutExemplo\RelativeLayoutExemplo.iml" filepath="C:\repositorios\android-exemplos\RelativeLayoutExemplo\RelativeLayoutExemplo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\RelativeLayoutExemplo\app\app.iml" filepath="C:\repositorios\android-exemplos\RelativeLayoutExemplo\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ListaDeCursosActivityCustomView.iml" filepath="$PROJECT_DIR$/ListaDeCursosActivityCustomView.iml" />
-      <module fileurl="file://C:\repositorios\android-exemplos\ListaDeCursosActivityCustomView\ListaDeCursosActivityCustomView.iml" filepath="C:\repositorios\android-exemplos\ListaDeCursosActivityCustomView\ListaDeCursosActivityCustomView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\repositorios\android-exemplos\ListaDeCursosActivityCustomView\app\app.iml" filepath="C:\repositorios\android-exemplos\ListaDeCursosActivityCustomView\app\app.iml" />
     </modules>
   </component>
 </project>

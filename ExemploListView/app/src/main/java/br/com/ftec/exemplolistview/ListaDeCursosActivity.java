@@ -18,18 +18,26 @@ public class ListaDeCursosActivity extends AppCompatActivity {
         List<Curso> cursos = todosOsCursos();
         ListView listaDeCursos = (ListView) findViewById(R.id.lista);
 
-        ArrayAdapter<Curso> adapter = new ArrayAdapter<Curso>(this,
-                android.R.layout.simple_list_item_1,
-                cursos);
+        ArrayAdapter<Curso> adapter =
+                new ArrayAdapter<Curso>(this,
+                                    android.R.layout.simple_list_item_1 ,
+                                    cursos);
         listaDeCursos.setAdapter(adapter);
 
     }
 
     private List<Curso> todosOsCursos() {
         ArrayList lista = new ArrayList();
-        lista.add(new Curso("Análise e desenvolvimento de sistemas", "Curso de graduação", EstadoAtual.FAZENDO));
-        lista.add(new Curso("Sistemas de informação", "Curso de graduação", EstadoAtual.FAZENDO));
-        lista.add(new Curso("Ciência da Computação", "Curso de graduação", EstadoAtual.FAZENDO));
+        lista.add(new Curso(
+                    "Análise e desenvolvimento de sistemas",
+                    "Curso de graduação",
+                    EstadoAtual.FAZENDO));
+        lista.add(new Curso("Sistemas de informação",
+                            "Curso de graduação",
+                            EstadoAtual.FAZENDO));
+        lista.add(new Curso("Ciência da Computação",
+                            "Curso de graduação",
+                            EstadoAtual.FAZENDO));
         return lista;
     }
 

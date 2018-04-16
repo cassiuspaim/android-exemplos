@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExemploListView.iml" filepath="$PROJECT_DIR$/ExemploListView.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\ExemploListView\ExemploListView.iml" filepath="C:\repositorios\android-exemplos\ExemploListView\ExemploListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\repositorios\android-exemplos\ExemploListView\app\app.iml" filepath="C:\repositorios\android-exemplos\ExemploListView\app\app.iml" />
     </modules>
   </component>
 </project>

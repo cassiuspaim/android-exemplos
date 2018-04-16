@@ -19,10 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         simpleList = (ListView) findViewById(R.id.simpleListView);
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this /* contexto */ ,
-                R.layout.activity_list_view /* recurso de layout */ ,
-                R.id.textView /* Id do TextView dentro do layout que deve ser populado */ ,
-                animalList /* array de dados */ );
+        ArrayAdapter<String> arrayAdapter
+                = new ArrayAdapter<String>(
+                        this /* contexto */ ,
+                        R.layout.activity_list_view /* recurso de layout */ ,
+                        R.id.textView /* Id do TextView dentro do layout que deve ser populado */ ,
+                        animalList /* array de dados */ );
         simpleList.setAdapter(arrayAdapter);
     }
 
