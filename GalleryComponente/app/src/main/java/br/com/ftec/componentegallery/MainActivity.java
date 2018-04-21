@@ -70,7 +70,8 @@ public class MainActivity extends Activity {
             return position;
         }
         // returns an ImageView view
-        public View getView(int position, View convertView, ViewGroup parent) {
+        public View getView(int position,
+                                View convertView, ViewGroup parent) {
             ImageView imageView = new ImageView(context);
             imageView.setImageResource(imageIDs[position]);
             imageView.setLayoutParams(new Gallery.LayoutParams(100, 100));

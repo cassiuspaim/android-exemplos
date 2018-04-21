@@ -33,7 +33,8 @@ public class SalarioActivity extends AppCompatActivity {
                 else
                     novo_salario = salario + (salario * 0.5);
 
-                AlertDialog.Builder dialogo = new AlertDialog.Builder(SalarioActivity.this);
+                AlertDialog.Builder dialogo =
+                        new AlertDialog.Builder(SalarioActivity.this);
                 dialogo.setTitle("Novo salário");
                 dialogo.setMessage("Seu novo salário é : R$" + String.valueOf(novo_salario));
                 dialogo.setNeutralButton("OK", null);

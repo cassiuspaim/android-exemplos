@@ -55,9 +55,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if (item.getItemId() == ID_MENU_LIGAR) {
-            Toast.makeText(getApplicationContext(), "Ítem " + getResources().getString(R.string.LIGAR) + " acionado", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),
+                    "Ítem " + getResources().getString(R.string.LIGAR) + " acionado",
+                    Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == ID_MENU_SMS ) {
-            Toast.makeText(getApplicationContext(), "Ítem " + getResources().getString(R.string.SMS) + " acionado", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),
+                    "Ítem " + getResources().getString(R.string.SMS) + " acionado",
+                    Toast.LENGTH_LONG).show();
         } else {
             return false;
         }

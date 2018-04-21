@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 public class ExemploSpinnerActivity extends Activity {
     // Planetas
-    private int[] imagens = {R.drawable.planeta_01_mercurio, R.drawable.planeta_02_venus,
+    private int[] imagens = {R.drawable.planeta_01_mercurio,
+            R.drawable.planeta_02_venus,
             R.drawable.planeta_03_terra, R.drawable.planeta_04_marte, R.drawable.planeta_05_jupiter,
             R.drawable.planeta_06_saturno, R.drawable.planeta_07_urano, R.drawable.planeta_08_neptuno,
             R.drawable.planeta_09_plutao};
@@ -35,7 +36,9 @@ public class ExemploSpinnerActivity extends Activity {
         combo = (Spinner) findViewById(R.id.comboPlanetas);
 
         ArrayAdapter<String> adaptador =
-                new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, planetas);
+                new ArrayAdapter<String>(this,
+                        android.R.layout.simple_spinner_item,
+                        planetas);
 		adaptador.setDropDownViewResource(android.R.layout.simple_spinner_item);
 //        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         combo.setAdapter(adaptador);

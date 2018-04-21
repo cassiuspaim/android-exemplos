@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MenuContextoExemplo.iml" filepath="$PROJECT_DIR$/MenuContextoExemplo.iml" />
-      <module fileurl="file://C:\repositorios\android-exemplos\MenuContextoExemplo\MenuContextoExemplo.iml" filepath="C:\repositorios\android-exemplos\MenuContextoExemplo\MenuContextoExemplo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\repositorios\android-exemplos\MenuContextoExemplo\app\app.iml" filepath="C:\repositorios\android-exemplos\MenuContextoExemplo\app\app.iml" />
     </modules>
   </component>
 </project>
