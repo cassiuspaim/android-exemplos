@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConsumoWS</string>
+    <string name="title_activity_pokemon">Consumo WS</string>
+    <string name="weight">Peso</string>
+    <string name="name">Nome</string>
+    <string name="btnShowPokemon">Mostrar Pokemon</string>
+</resources>
