@@ -2,15 +2,10 @@ package br.com.ftec.consumows;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import java.util.concurrent.ExecutionException;
 
 public class PokemonActivity extends AppCompatActivity {
 
@@ -29,17 +24,10 @@ public class PokemonActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                executarTarefaAssincrona();
+                TarefaDownload download = new TarefaDownload();
+                download.execute();
             }
-
-
         });
-    }
-
-    private void executarTarefaAssincrona() {
-        TarefaDownload download = new TarefaDownload();
-        download.execute();
-
     }
 
     private class TarefaDownload extends AsyncTask<Void, Void, Pokemon> {
