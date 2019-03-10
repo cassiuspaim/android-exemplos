@@ -2,6 +2,7 @@ package br.com.ftec.cadastrousuario;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -23,10 +24,16 @@ public class TelaCadastroUsuario extends AppCompatActivity{
     Usuario usuario;
 
     @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        Log.e(TAG, "onSaveInstanceState");
+    }
+
+    @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_cadastro_usuario);
-
+        Log.e(TAG, "onCreate");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(getResources().getString(R.string.app_name));
         toolbar.setSubtitle(getResources().getString(R.string.tela_edicao_usuario));

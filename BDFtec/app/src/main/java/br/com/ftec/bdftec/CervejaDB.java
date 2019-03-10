@@ -18,7 +18,7 @@ class CervejaDB extends SQLiteOpenHelper {
 
     private static final
         String NOME_BANCO_DE_DADOS = "sql_cerveja.sqlite";
-    private static final int VERSAO_BANCO_DE_DADOS = 1;
+    private static final int VERSAO_BANCO_DE_DADOS = 2;
     private static final String TAG = "CERVEJA_DB";
 
     public CervejaDB(Context context) {
@@ -108,6 +108,7 @@ class CervejaDB extends SQLiteOpenHelper {
                         null,
                         null,
                         null, null, null, null, null);
+
             return conversaoParaLista(c);
         } finally {
             db.close();

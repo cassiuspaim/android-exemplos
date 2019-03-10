@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void initMap() {
         MapFragment mapFragment
-                = (MapFragment) getFragmentManager().findFragmentById(R.id.mapFragment);
+                = (MapFragment) getFragmentManager()
+                .findFragmentById(R.id.mapFragment);
         mapFragment.getMapAsync(this);
 
     }
@@ -42,12 +43,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public boolean googleServicesAvailable(){
         GoogleApiAvailability api = GoogleApiAvailability.getInstance();
         int isAvailable = api.isGooglePlayServicesAvailable(this);
-        if (isAvailable == ConnectionResult.SUCCESS) { //sucess
+        if (isAvailable == ConnectionResult.SUCCESS) {//usuário tem acesso
             return true;
-        } else if (api.isUserResolvableError(isAvailable)) { //install google services
+        } else if (api.isUserResolvableError(isAvailable)) { //instalar google service
             Dialog dialog = api.getErrorDialog(this, isAvailable, 0);
             dialog.show();
-        } else {
+        } else {//não foi possível instalar google services
             Toast.makeText(this,
                     "Não foi possível a conexão ao Google Play Services",
                     Toast.LENGTH_LONG).show();
@@ -59,7 +60,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mGoogleMap = googleMap;
-        goToLocationZoom(-30.025537, -51.219427, 15);
+        goToLocationZoom(-30.025537,
+                        -51.219427,
+                        15);
     }
 
     private void goToLocationZoom(double latitude, double longitude, float zoom) {

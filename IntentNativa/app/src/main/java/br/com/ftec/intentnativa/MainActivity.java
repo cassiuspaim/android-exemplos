@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Representa o número que deve ser ligado.
-                Uri uri = Uri.parse("tel:9988888");
+                Uri uri = Uri.parse("tel:51 99999999");
                 //Cria a Intent com o telefone
                 Intent it = new Intent(Intent.ACTION_CALL, uri);
                 //Enviar a mensagem ao Android
@@ -64,8 +64,11 @@ public class MainActivity extends AppCompatActivity {
         btVisualizarContato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                String uriContato
+                        = "content://com.android.contacts/contacts/1";
                 //Visualizar o contato de id 1 na lista de contatos.
-                Uri uri = Uri.parse("content://com.android.contacts/contacts/1");
+                Uri uri = Uri.parse(uriContato);
                 //Cria a Intent com o telefone
                 Intent it = new Intent(Intent.ACTION_VIEW , uri);
                 //Envia mensagem
@@ -125,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String partida = "-30.035891,-51.214403";
                 String destino = "-30.025711,-51.220057";
-                String url = "http://maps.google.com/maps?f=d&saddr="+partida+"&daddr="+destino+"&hl=pt";
+                String url = "http://maps.google.com/maps?f=d&saddr="
+                        + partida + "&daddr=" + destino + "&hl=pt";
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url) ));
             }
         });
@@ -134,7 +138,9 @@ public class MainActivity extends AppCompatActivity {
         btAbrirAudio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri link = Uri.parse("https://nerdcast.jovemnerd.com.br/nerdcast_559_tecnologias_do_futuro_3.mp3");
+                Uri link = Uri.parse(
+                        "https://nerdcast.jovemnerd.com.br/"
+                        + "nerdcast_559_tecnologias_do_futuro_3.mp3");
                 Intent it = new Intent(Intent.ACTION_VIEW, link);
                 it.setDataAndType(link, "audio/*");
                 startActivity(it);
@@ -149,18 +155,25 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = intent.getData();
         if (codigo == SELECIONAR_CONTATO){
             //Exibe a uri do contato selecionado
-            Toast.makeText(MainActivity.this, "Contato: " + uri, Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,
+                    "Contato: " + uri, Toast.LENGTH_SHORT).show();
             //Abre o Contato pesquisado
             startActivity(new Intent(Intent.ACTION_VIEW, uri));
         } else if (codigo == VISUALIZAR_NOME_CONTATO) {
-            //Busca o contato no banco de dados utilizando a uri do contato selecionado
-            Cursor c = getContentResolver().query(uri,null,null,null,null);
+            //Busca o contato no banco de dados utilizando
+            //a uri do contato selecionado
+            Cursor c = getContentResolver()
+                    .query(uri,
+                            null,
+                            null,null,null);
             //Posiciona o cursor
             c.moveToNext();
             //Recupera o nome do contato
-            int nameColumn = c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME);
+            int nameColumn = c.getColumnIndex(ContactsContract
+                                    .Contacts.DISPLAY_NAME);
             String nome = c.getString(nameColumn);
-            Toast.makeText(this, "Nome: " + nome, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Nome: " + nome,
+                    Toast.LENGTH_SHORT).show();
             c.close();
         }
 

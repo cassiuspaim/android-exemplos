@@ -26,15 +26,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Cerveja cerveja = new Cerveja();
-                cerveja
-                  .setNome(etCerveja.getText().toString());
-                cerveja
-                  .setQuantidade(
+                cerveja.setNome(etCerveja.getText().toString());
+                cerveja.setQuantidade(
                           Integer.valueOf(
                                   etQuantidade.getText().toString()
                           ));
-                cerveja
-                  .setTipo(etTipo.getText().toString());
+                cerveja.setTipo(etTipo.getText().toString());
 
                 CervejaDB cervejaDB = new CervejaDB(MainActivity.this);
                 cervejaDB.salvar(cerveja);

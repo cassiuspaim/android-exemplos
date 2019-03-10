@@ -42,6 +42,7 @@ public class ExemploSpinnerActivity extends Activity {
 		adaptador.setDropDownViewResource(android.R.layout.simple_spinner_item);
 //        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         combo.setAdapter(adaptador);
+
         // Se selecionar algum planeta atualiza a imagem
         combo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

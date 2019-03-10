@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         btStartActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ExemploTelaSimNao.class));
+                startActivity(new Intent(MainActivity.this,
+                                                    ExemploTelaSimNao.class));
             }
         });
     }
