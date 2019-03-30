@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CadastroUsuarioNovo</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="administrador">Administrador</string>
+    <string name="terceiro">Terceiro</string>
+    <string name="salvar">Salvar</string>
+    <string name="nomeUsuario">Nome do usuário</string>
+</resources>
