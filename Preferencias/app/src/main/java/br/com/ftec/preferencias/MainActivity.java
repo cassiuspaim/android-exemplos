@@ -18,8 +18,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SharedPreferences pref = this.getSharedPreferences("ID_PREF_EXEMPLO", 0);
+
+
+        SharedPreferences pref = this.getSharedPreferences("ID_PREF_EXEMPLO", Context.MODE_PRIVATE);
         String valor = pref.getString("nome", "valor_padrao");
+
 
         et = (EditText) findViewById(R.id.etNome);
         et.setText(valor);
@@ -28,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                SharedPreferences pref = getContexto().getSharedPreferences("ID_PREF_EXEMPLO", 0);
+                SharedPreferences pref =
+                        getContexto().getSharedPreferences("ID_PREF_EXEMPLO", 0);
                 SharedPreferences.Editor editor = pref.edit();
                 editor.putString("nome",  et.getText().toString());
                 editor.commit();

@@ -20,7 +20,7 @@ public class ListaDeCursosActivity extends AppCompatActivity {
 
         ArrayAdapter<Curso> adapter =
                 new ArrayAdapter<Curso>(this,
-                                    android.R.layout.simple_list_item_1 ,
+                                    android.R.layout.simple_list_item_2 ,
                                     cursos);
         listaDeCursos.setAdapter(adapter);
 

@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\repositorios\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="920a7d90cb1824e370bb4f9dd2843d85a5aa0c3c">
+        <dex dex="D:\repositorios\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c17a3b4cc807f8a475ebe5db5dfc5eff11b96b5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\repositorios\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_774db87625e27cc8f3dc4831526d1c57d54401e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e3f05af8c3f09c5728c6e7aed2ad385793fd2ad8">
-        <dex dex="C:\Users\CASSIUS\AndroidStudioProjects\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_815b4095ad0afbbedc8bba51beb1bfb9d7c04fb4\classes.dex" />
+        <dex dex="D:\repositorios\android-exemplos\ToolbarDinamica\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f4a2c20a92ef2f67d9a02e7ba8ea5ce88a499c62\classes.dex" />
     </item>
 
 </items>

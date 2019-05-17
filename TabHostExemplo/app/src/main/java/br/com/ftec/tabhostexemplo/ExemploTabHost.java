@@ -21,7 +21,7 @@ public class ExemploTabHost extends TabActivity
         super.onCreate(savedInstanceState);
 
         // getTabHost() é da TagetTabHostbActivity
-        TabHost tabHost = ();
+        TabHost tabHost = getTabHost();
         tabHost.setOnTabChangedListener(this);
 
         //Tab 1 (abrir com Intent -> Activity Tab1.class)
